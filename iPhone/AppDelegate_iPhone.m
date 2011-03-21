@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate_iPhone.h"
+#import "DrawToolsUIViewController.h"
 
 @implementation AppDelegate_iPhone
 
@@ -20,6 +21,10 @@
     
     // Override point for customization after application launch.
     
+	_viewCtl = [[DrawToolsUIViewController alloc] init];
+	[_viewCtl.view setFrame:CGRectMake(0, 20, 320, 460)];
+	[window addSubview:_viewCtl.view];
+
     [self.window makeKeyAndVisible];
     
     return YES;

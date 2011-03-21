@@ -15,6 +15,9 @@
 		2860E32E111B888700E27156 /* AppDelegate_iPad.m in Sources */ = {isa = PBXBuildFile; fileRef = 2860E32C111B888700E27156 /* AppDelegate_iPad.m */; };
 		2860E32F111B888700E27156 /* MainWindow_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2860E32D111B888700E27156 /* MainWindow_iPad.xib */; };
 		288765FD0DF74451002DB57D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765FC0DF74451002DB57D /* CoreGraphics.framework */; };
+		6948FDAB13376E1D0001DB05 /* ColorSelecter.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6948FDAA13376E1D0001DB05 /* ColorSelecter.xib */; };
+		69AEEA4A1337218B00DB3382 /* DrawToolsUIViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 69AEEA481337218B00DB3382 /* DrawToolsUIViewController.m */; };
+		69AEEA4B1337218B00DB3382 /* DrawToolsUIViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 69AEEA491337218B00DB3382 /* DrawToolsUIViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +33,10 @@
 		288765FC0DF74451002DB57D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = Shared/main.m; sourceTree = "<group>"; };
 		32CA4F630368D1EE00C91783 /* drawTools_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = drawTools_Prefix.pch; sourceTree = "<group>"; };
+		6948FDAA13376E1D0001DB05 /* ColorSelecter.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ColorSelecter.xib; sourceTree = "<group>"; };
+		69AEEA471337218B00DB3382 /* DrawToolsUIViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DrawToolsUIViewController.h; sourceTree = "<group>"; };
+		69AEEA481337218B00DB3382 /* DrawToolsUIViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DrawToolsUIViewController.m; sourceTree = "<group>"; };
+		69AEEA491337218B00DB3382 /* DrawToolsUIViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DrawToolsUIViewController.xib; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* drawTools-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "drawTools-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -79,6 +86,10 @@
 			isa = PBXGroup;
 			children = (
 				8D1107310486CEB800E47090 /* drawTools-Info.plist */,
+				69AEEA471337218B00DB3382 /* DrawToolsUIViewController.h */,
+				69AEEA481337218B00DB3382 /* DrawToolsUIViewController.m */,
+				69AEEA491337218B00DB3382 /* DrawToolsUIViewController.xib */,
+				6948FDAA13376E1D0001DB05 /* ColorSelecter.xib */,
 			);
 			name = Shared;
 			sourceTree = "<group>";
@@ -166,6 +177,8 @@
 			files = (
 				2860E329111B887F00E27156 /* MainWindow_iPhone.xib in Resources */,
 				2860E32F111B888700E27156 /* MainWindow_iPad.xib in Resources */,
+				69AEEA4B1337218B00DB3382 /* DrawToolsUIViewController.xib in Resources */,
+				6948FDAB13376E1D0001DB05 /* ColorSelecter.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -179,6 +192,7 @@
 				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
 				2860E328111B887F00E27156 /* AppDelegate_iPhone.m in Sources */,
 				2860E32E111B888700E27156 /* AppDelegate_iPad.m in Sources */,
+				69AEEA4A1337218B00DB3382 /* DrawToolsUIViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

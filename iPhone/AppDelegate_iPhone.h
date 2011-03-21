@@ -10,6 +10,7 @@
 
 @interface AppDelegate_iPhone : NSObject <UIApplicationDelegate> {
     UIWindow *window;
+	UIViewController *_viewCtl;
 }
 
 @property (nonatomic, retain) IBOutlet UIWindow *window;

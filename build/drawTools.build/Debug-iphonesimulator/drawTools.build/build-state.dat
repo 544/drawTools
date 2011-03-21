@@ -1,7 +1,7 @@
 TdrawTools
 v7
 r0
-t322404006.854299
+t322417629.638137
 cCheck dependencies
 cProcessInfoPlistFile /Users/masato/app/drawTools/build/Debug-iphonesimulator/drawTools.app/Info.plist drawTools-Info.plist
 cCompileXIB /Users/masato/app/drawTools/iPhone/MainWindow_iPhone.xib
@@ -48,26 +48,26 @@ t1287727235
 s7657392
 
 N/Users/masato/app/drawTools/ColorSelecter.xib
-c000000004D87369D0000000000001643
-t1300706973
-s5699
+c000000004D8777130000000000006E14
+t1300723475
+s28180
 
 N/Users/masato/app/drawTools/DrawToolsUIViewController.h
-c000000004D8743190000000000000313
-t1300710169
+c000000004D877BB70000000000000313
+t1300724663
 s787
 i<UIKit/UIKit.h>
 
 N/Users/masato/app/drawTools/DrawToolsUIViewController.m
-c000000004D8747590000000000001196
-t1300711257
-s4502
+c000000004D877C0B00000000000013A4
+t1300724747
+s5028
 i"DrawToolsUIViewController.h"
 
 N/Users/masato/app/drawTools/DrawToolsUIViewController.xib
-c000000004D87471C0000000000006AFC
-t1300711196
-s27388
+c000000004D877C530000000000009164
+t1300724819
+s37220
 
 N/Users/masato/app/drawTools/MainView.h
 c000000004D8733AC00000000000000D8
@@ -93,20 +93,20 @@ s365
 i<UIKit/UIKit.h>
 
 N/Users/masato/app/drawTools/build/Debug-iphonesimulator/drawTools.app
-t1300711206
+t1300724829
 s306
 
 N/Users/masato/app/drawTools/build/Debug-iphonesimulator/drawTools.app.dSYM
-t1300711140
+t1300724755
 s102
 
 N/Users/masato/app/drawTools/build/Debug-iphonesimulator/drawTools.app/ColorSelecter.nib
-t1300709301
-s663
+t1300723544
+s1795
 
 N/Users/masato/app/drawTools/build/Debug-iphonesimulator/drawTools.app/DrawToolsUIViewController.nib
-t1300711206
-s2173
+t1300724829
+s3117
 
 N/Users/masato/app/drawTools/build/Debug-iphonesimulator/drawTools.app/Info.plist
 t1300690528
@@ -129,20 +129,20 @@ t1300690528
 s8
 
 N/Users/masato/app/drawTools/build/Debug-iphonesimulator/drawTools.app/drawTools
-t1300711140
-s27192
+t1300724755
+s27256
 
 N/Users/masato/app/drawTools/build/drawTools.build/Debug-iphonesimulator/drawTools.build/Objects-normal/i386/AppDelegate_iPad.o
 t1300690536
 s48388
 
 N/Users/masato/app/drawTools/build/drawTools.build/Debug-iphonesimulator/drawTools.build/Objects-normal/i386/AppDelegate_iPhone.o
-t1300711140
+t1300724670
 s51456
 
 N/Users/masato/app/drawTools/build/drawTools.build/Debug-iphonesimulator/drawTools.build/Objects-normal/i386/DrawToolsUIViewController.o
-t1300711140
-s56052
+t1300724755
+s57196
 
 N/Users/masato/app/drawTools/build/drawTools.build/Debug-iphonesimulator/drawTools.build/Objects-normal/i386/MainView.o
 t2
@@ -210,7 +210,7 @@ s1385
 
 CCheck dependencies
 r0
-lSLF07#2@18"Check dependencies322404003#322404003#0(0"0(0#1#0"8621769664#0"0#
+lSLF07#2@18"Check dependencies322417628#322417628#0(0"0(0#1#0"8618871232#0"0#
 
 CCompileC build/drawTools.build/Debug-iphonesimulator/drawTools.build/Objects-normal/i386/AppDelegate_iPad.o /Users/masato/app/drawTools/iPad/AppDelegate_iPad.m normal i386 objective-c com.apple.compilers.gcc.4_2
 s322383336.031415
@@ -226,8 +226,8 @@ xcom.apple.compilers.gcc.4_2
 lSLF07#2@59"Compile /Users/masato/app/drawTools/iPad/AppDelegate_iPad.m322383336#322383336#0(0"0(0#0#51"/Users/masato/app/drawTools/iPad/AppDelegate_iPad.m8616554080#1862"    cd /Users/masato/app/drawTools    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/masato/app/drawTools/build/drawTools.build/Debug-iphonesimulator/drawTools.build/drawTools-generated-files.hmap -I/Users/masato/app/drawTools/build/drawTools.build/Debug-iphonesimulator/drawTools.build/drawTools-own-target-headers.hmap -I/Users/masato/app/drawTools/build/drawTools.build/Debug-iphonesimulator/drawTools.build/drawTools-all-target-headers.hmap -iquote /Users/masato/app/drawTools/build/drawTools.build/Debug-iphonesimulator/drawTools.build/drawTools-project-headers.hmap -F/Users/masato/app/drawTools/build/Debug-iphonesimulator -I/Users/masato/app/drawTools/build/Debug-iphonesimulator/include -I/Users/masato/app/drawTools/build/drawTools.build/Debug-iphonesimulator/drawTools.build/DerivedSources/i386 -I/Users/masato/app/drawTools/build/drawTools.build/Debug-iphonesimulator/drawTools.build/DerivedSources -include /var/folders/Z5/Z5pGO7IVHfSN3YL4tp4Fhk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/drawTools_Prefix-dhqbxztenbednsdrnagybmyofytz/drawTools_Prefix.pch -c /Users/masato/app/drawTools/iPad/AppDelegate_iPad.m -o /Users/masato/app/drawTools/build/drawTools.build/Debug-iphonesimulator/drawTools.build/Objects-normal/i386/AppDelegate_iPad.o0#
 
 CCompileC build/drawTools.build/Debug-iphonesimulator/drawTools.build/Objects-normal/i386/AppDelegate_iPhone.o /Users/masato/app/drawTools/iPhone/AppDelegate_iPhone.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s322403939.624278
-e322403940.151665
+s322417465.619221
+e322417470.488933
 r1
 xCompileC
 xbuild/drawTools.build/Debug-iphonesimulator/drawTools.build/Objects-normal/i386/AppDelegate_iPhone.o
@@ -236,11 +236,11 @@ xnormal
 xi386
 xobjective-c
 xcom.apple.compilers.gcc.4_2
-lSLF07#2@63"Compile /Users/masato/app/drawTools/iPhone/AppDelegate_iPhone.m322403939#322403940#0(0"0(0#0#55"/Users/masato/app/drawTools/iPhone/AppDelegate_iPhone.m8624234080#1868"    cd /Users/masato/app/drawTools    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/masato/app/drawTools/build/drawTools.build/Debug-iphonesimulator/drawTools.build/drawTools-generated-files.hmap -I/Users/masato/app/drawTools/build/drawTools.build/Debug-iphonesimulator/drawTools.build/drawTools-own-target-headers.hmap -I/Users/masato/app/drawTools/build/drawTools.build/Debug-iphonesimulator/drawTools.build/drawTools-all-target-headers.hmap -iquote /Users/masato/app/drawTools/build/drawTools.build/Debug-iphonesimulator/drawTools.build/drawTools-project-headers.hmap -F/Users/masato/app/drawTools/build/Debug-iphonesimulator -I/Users/masato/app/drawTools/build/Debug-iphonesimulator/include -I/Users/masato/app/drawTools/build/drawTools.build/Debug-iphonesimulator/drawTools.build/DerivedSources/i386 -I/Users/masato/app/drawTools/build/drawTools.build/Debug-iphonesimulator/drawTools.build/DerivedSources -include /var/folders/Z5/Z5pGO7IVHfSN3YL4tp4Fhk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/drawTools_Prefix-dhqbxztenbednsdrnagybmyofytz/drawTools_Prefix.pch -c /Users/masato/app/drawTools/iPhone/AppDelegate_iPhone.m -o /Users/masato/app/drawTools/build/drawTools.build/Debug-iphonesimulator/drawTools.build/Objects-normal/i386/AppDelegate_iPhone.o0#
+lSLF07#2@63"Compile /Users/masato/app/drawTools/iPhone/AppDelegate_iPhone.m322417465#322417470#0(0"0(0#0#55"/Users/masato/app/drawTools/iPhone/AppDelegate_iPhone.m8618587360#1868"    cd /Users/masato/app/drawTools    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/masato/app/drawTools/build/drawTools.build/Debug-iphonesimulator/drawTools.build/drawTools-generated-files.hmap -I/Users/masato/app/drawTools/build/drawTools.build/Debug-iphonesimulator/drawTools.build/drawTools-own-target-headers.hmap -I/Users/masato/app/drawTools/build/drawTools.build/Debug-iphonesimulator/drawTools.build/drawTools-all-target-headers.hmap -iquote /Users/masato/app/drawTools/build/drawTools.build/Debug-iphonesimulator/drawTools.build/drawTools-project-headers.hmap -F/Users/masato/app/drawTools/build/Debug-iphonesimulator -I/Users/masato/app/drawTools/build/Debug-iphonesimulator/include -I/Users/masato/app/drawTools/build/drawTools.build/Debug-iphonesimulator/drawTools.build/DerivedSources/i386 -I/Users/masato/app/drawTools/build/drawTools.build/Debug-iphonesimulator/drawTools.build/DerivedSources -include /var/folders/Z5/Z5pGO7IVHfSN3YL4tp4Fhk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/drawTools_Prefix-dhqbxztenbednsdrnagybmyofytz/drawTools_Prefix.pch -c /Users/masato/app/drawTools/iPhone/AppDelegate_iPhone.m -o /Users/masato/app/drawTools/build/drawTools.build/Debug-iphonesimulator/drawTools.build/Objects-normal/i386/AppDelegate_iPhone.o0#
 
 CCompileC build/drawTools.build/Debug-iphonesimulator/drawTools.build/Objects-normal/i386/DrawToolsUIViewController.o /Users/masato/app/drawTools/DrawToolsUIViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s322403939.683431
-e322403940.150602
+s322417555.242059
+e322417555.440593
 r1
 xCompileC
 xbuild/drawTools.build/Debug-iphonesimulator/drawTools.build/Objects-normal/i386/DrawToolsUIViewController.o
@@ -249,7 +249,7 @@ xnormal
 xi386
 xobjective-c
 xcom.apple.compilers.gcc.4_2
-lSLF07#2@63"Compile /Users/masato/app/drawTools/DrawToolsUIViewController.m322403939#322403940#0(0"0(0#0#55"/Users/masato/app/drawTools/DrawToolsUIViewController.m8617363648#1875"    cd /Users/masato/app/drawTools    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/masato/app/drawTools/build/drawTools.build/Debug-iphonesimulator/drawTools.build/drawTools-generated-files.hmap -I/Users/masato/app/drawTools/build/drawTools.build/Debug-iphonesimulator/drawTools.build/drawTools-own-target-headers.hmap -I/Users/masato/app/drawTools/build/drawTools.build/Debug-iphonesimulator/drawTools.build/drawTools-all-target-headers.hmap -iquote /Users/masato/app/drawTools/build/drawTools.build/Debug-iphonesimulator/drawTools.build/drawTools-project-headers.hmap -F/Users/masato/app/drawTools/build/Debug-iphonesimulator -I/Users/masato/app/drawTools/build/Debug-iphonesimulator/include -I/Users/masato/app/drawTools/build/drawTools.build/Debug-iphonesimulator/drawTools.build/DerivedSources/i386 -I/Users/masato/app/drawTools/build/drawTools.build/Debug-iphonesimulator/drawTools.build/DerivedSources -include /var/folders/Z5/Z5pGO7IVHfSN3YL4tp4Fhk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/drawTools_Prefix-dhqbxztenbednsdrnagybmyofytz/drawTools_Prefix.pch -c /Users/masato/app/drawTools/DrawToolsUIViewController.m -o /Users/masato/app/drawTools/build/drawTools.build/Debug-iphonesimulator/drawTools.build/Objects-normal/i386/DrawToolsUIViewController.o0#
+lSLF07#2@63"Compile /Users/masato/app/drawTools/DrawToolsUIViewController.m322417555#322417555#0(0"0(0#0#55"/Users/masato/app/drawTools/DrawToolsUIViewController.m8617359168#1875"    cd /Users/masato/app/drawTools    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/masato/app/drawTools/build/drawTools.build/Debug-iphonesimulator/drawTools.build/drawTools-generated-files.hmap -I/Users/masato/app/drawTools/build/drawTools.build/Debug-iphonesimulator/drawTools.build/drawTools-own-target-headers.hmap -I/Users/masato/app/drawTools/build/drawTools.build/Debug-iphonesimulator/drawTools.build/drawTools-all-target-headers.hmap -iquote /Users/masato/app/drawTools/build/drawTools.build/Debug-iphonesimulator/drawTools.build/drawTools-project-headers.hmap -F/Users/masato/app/drawTools/build/Debug-iphonesimulator -I/Users/masato/app/drawTools/build/Debug-iphonesimulator/include -I/Users/masato/app/drawTools/build/drawTools.build/Debug-iphonesimulator/drawTools.build/DerivedSources/i386 -I/Users/masato/app/drawTools/build/drawTools.build/Debug-iphonesimulator/drawTools.build/DerivedSources -include /var/folders/Z5/Z5pGO7IVHfSN3YL4tp4Fhk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/drawTools_Prefix-dhqbxztenbednsdrnagybmyofytz/drawTools_Prefix.pch -c /Users/masato/app/drawTools/DrawToolsUIViewController.m -o /Users/masato/app/drawTools/build/drawTools.build/Debug-iphonesimulator/drawTools.build/Objects-normal/i386/DrawToolsUIViewController.o0#
 
 CCompileC build/drawTools.build/Debug-iphonesimulator/drawTools.build/Objects-normal/i386/MainView.o /Users/masato/app/drawTools/MainView.m normal i386 objective-c com.apple.compilers.gcc.4_2
 r0
@@ -268,20 +268,20 @@ xcom.apple.compilers.gcc.4_2
 lSLF07#2@49"Compile /Users/masato/app/drawTools/Shared/main.m322383335#322383336#0(0"0(0#0#41"/Users/masato/app/drawTools/Shared/main.m8616652608#1840"    cd /Users/masato/app/drawTools    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/masato/app/drawTools/build/drawTools.build/Debug-iphonesimulator/drawTools.build/drawTools-generated-files.hmap -I/Users/masato/app/drawTools/build/drawTools.build/Debug-iphonesimulator/drawTools.build/drawTools-own-target-headers.hmap -I/Users/masato/app/drawTools/build/drawTools.build/Debug-iphonesimulator/drawTools.build/drawTools-all-target-headers.hmap -iquote /Users/masato/app/drawTools/build/drawTools.build/Debug-iphonesimulator/drawTools.build/drawTools-project-headers.hmap -F/Users/masato/app/drawTools/build/Debug-iphonesimulator -I/Users/masato/app/drawTools/build/Debug-iphonesimulator/include -I/Users/masato/app/drawTools/build/drawTools.build/Debug-iphonesimulator/drawTools.build/DerivedSources/i386 -I/Users/masato/app/drawTools/build/drawTools.build/Debug-iphonesimulator/drawTools.build/DerivedSources -include /var/folders/Z5/Z5pGO7IVHfSN3YL4tp4Fhk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/drawTools_Prefix-dhqbxztenbednsdrnagybmyofytz/drawTools_Prefix.pch -c /Users/masato/app/drawTools/Shared/main.m -o /Users/masato/app/drawTools/build/drawTools.build/Debug-iphonesimulator/drawTools.build/Objects-normal/i386/main.o0#
 
 CCompileXIB /Users/masato/app/drawTools/ColorSelecter.xib
-s322402096.490780
-e322402101.452366
+s322416342.317212
+e322416344.756805
 r1
 xCompileXIB
 x/Users/masato/app/drawTools/ColorSelecter.xib
-lSLF07#2@28"CompileXIB ColorSelecter.xib322402096#322402101#0(0"0(0#0#45"/Users/masato/app/drawTools/ColorSelecter.xib8622306944#545"    cd /Users/masato/app/drawTools    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/masato/app/drawTools/build/Debug-iphonesimulator/drawTools.app/ColorSelecter.nib /Users/masato/app/drawTools/ColorSelecter.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk0#
+lSLF07#2@28"CompileXIB ColorSelecter.xib322416342#322416344#0(0"0(0#0#45"/Users/masato/app/drawTools/ColorSelecter.xib8618846816#545"    cd /Users/masato/app/drawTools    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/masato/app/drawTools/build/Debug-iphonesimulator/drawTools.app/ColorSelecter.nib /Users/masato/app/drawTools/ColorSelecter.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk0#
 
 CCompileXIB /Users/masato/app/drawTools/DrawToolsUIViewController.xib
-s322404003.855151
-e322404006.770274
+s322417628.910428
+e322417629.614519
 r1
 xCompileXIB
 x/Users/masato/app/drawTools/DrawToolsUIViewController.xib
-lSLF07#2@40"CompileXIB DrawToolsUIViewController.xib322404003#322404006#0(0"0(0#0#57"/Users/masato/app/drawTools/DrawToolsUIViewController.xib8614264928#569"    cd /Users/masato/app/drawTools    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/masato/app/drawTools/build/Debug-iphonesimulator/drawTools.app/DrawToolsUIViewController.nib /Users/masato/app/drawTools/DrawToolsUIViewController.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk0#
+lSLF07#2@40"CompileXIB DrawToolsUIViewController.xib322417628#322417629#0(0"0(0#0#57"/Users/masato/app/drawTools/DrawToolsUIViewController.xib8618651936#569"    cd /Users/masato/app/drawTools    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/masato/app/drawTools/build/Debug-iphonesimulator/drawTools.app/DrawToolsUIViewController.nib /Users/masato/app/drawTools/DrawToolsUIViewController.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk0#
 
 CCompileXIB /Users/masato/app/drawTools/MainView.xib
 r0
@@ -303,23 +303,23 @@ x/Users/masato/app/drawTools/iPhone/MainWindow_iPhone.xib
 lSLF07#2@39"CompileXIB iPhone/MainWindow_iPhone.xib322383328#322383331#0(0"0(0#0#56"/Users/masato/app/drawTools/iPhone/MainWindow_iPhone.xib8617019040#560"    cd /Users/masato/app/drawTools    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/masato/app/drawTools/build/Debug-iphonesimulator/drawTools.app/MainWindow_iPhone.nib /Users/masato/app/drawTools/iPhone/MainWindow_iPhone.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk0#
 
 CGenerateDSYMFile /Users/masato/app/drawTools/build/Debug-iphonesimulator/drawTools.app.dSYM /Users/masato/app/drawTools/build/Debug-iphonesimulator/drawTools.app/drawTools
-s322403940.536843
-e322403940.623010
+s322417555.532580
+e322417555.600683
 r1
 xGenerateDSYMFile
 x/Users/masato/app/drawTools/build/Debug-iphonesimulator/drawTools.app.dSYM
 x/Users/masato/app/drawTools/build/Debug-iphonesimulator/drawTools.app/drawTools
-lSLF07#2@115"GenerateDSYMFile build/Debug-iphonesimulator/drawTools.app.dSYM build/Debug-iphonesimulator/drawTools.app/drawTools322403940#322403940#0(0"0(0#0#79"/Users/masato/app/drawTools/build/Debug-iphonesimulator/drawTools.app/drawTools8623569248#356"    cd /Users/masato/app/drawTools    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Users/masato/app/drawTools/build/Debug-iphonesimulator/drawTools.app/drawTools -o /Users/masato/app/drawTools/build/Debug-iphonesimulator/drawTools.app.dSYM0#
+lSLF07#2@115"GenerateDSYMFile build/Debug-iphonesimulator/drawTools.app.dSYM build/Debug-iphonesimulator/drawTools.app/drawTools322417555#322417555#0(0"0(0#0#79"/Users/masato/app/drawTools/build/Debug-iphonesimulator/drawTools.app/drawTools8619557984#356"    cd /Users/masato/app/drawTools    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Users/masato/app/drawTools/build/Debug-iphonesimulator/drawTools.app/drawTools -o /Users/masato/app/drawTools/build/Debug-iphonesimulator/drawTools.app.dSYM0#
 
 CLd /Users/masato/app/drawTools/build/Debug-iphonesimulator/drawTools.app/drawTools normal i386
-s322403940.151751
-e322403940.536492
+s322417555.440710
+e322417555.532455
 r1
 xLd
 x/Users/masato/app/drawTools/build/Debug-iphonesimulator/drawTools.app/drawTools
 xnormal
 xi386
-lSLF07#2@84"Link /Users/masato/app/drawTools/build/Debug-iphonesimulator/drawTools.app/drawTools322403940#322403940#0(0"0(0#0#0"8621614912#855"    cd /Users/masato/app/drawTools    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -L/Users/masato/app/drawTools/build/Debug-iphonesimulator -F/Users/masato/app/drawTools/build/Debug-iphonesimulator -filelist /Users/masato/app/drawTools/build/drawTools.build/Debug-iphonesimulator/drawTools.build/Objects-normal/i386/drawTools.LinkFileList -mmacosx-version-min=10.6 -Xlinker -objc_abi_version -Xlinker 2 -framework Foundation -framework UIKit -framework CoreGraphics -o /Users/masato/app/drawTools/build/Debug-iphonesimulator/drawTools.app/drawTools0#
+lSLF07#2@84"Link /Users/masato/app/drawTools/build/Debug-iphonesimulator/drawTools.app/drawTools322417555#322417555#0(0"0(0#0#0"8610534784#855"    cd /Users/masato/app/drawTools    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -L/Users/masato/app/drawTools/build/Debug-iphonesimulator -F/Users/masato/app/drawTools/build/Debug-iphonesimulator -filelist /Users/masato/app/drawTools/build/drawTools.build/Debug-iphonesimulator/drawTools.build/Objects-normal/i386/drawTools.LinkFileList -mmacosx-version-min=10.6 -Xlinker -objc_abi_version -Xlinker 2 -framework Foundation -framework UIKit -framework CoreGraphics -o /Users/masato/app/drawTools/build/Debug-iphonesimulator/drawTools.app/drawTools0#
 
 CProcessInfoPlistFile /Users/masato/app/drawTools/build/Debug-iphonesimulator/drawTools.app/Info.plist drawTools-Info.plist
 s322383328.540179
@@ -344,10 +344,10 @@ xcom.apple.compilers.gcc.4_2
 lSLF07#2@31"Precompile drawTools_Prefix.pch322383332#322383335#0(0"0(0#0#48"/Users/masato/app/drawTools/drawTools_Prefix.pch8614891680#1734"    cd /Users/masato/app/drawTools    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/masato/app/drawTools/build/drawTools.build/Debug-iphonesimulator/drawTools.build/drawTools-generated-files.hmap -I/Users/masato/app/drawTools/build/drawTools.build/Debug-iphonesimulator/drawTools.build/drawTools-own-target-headers.hmap -I/Users/masato/app/drawTools/build/drawTools.build/Debug-iphonesimulator/drawTools.build/drawTools-all-target-headers.hmap -iquote /Users/masato/app/drawTools/build/drawTools.build/Debug-iphonesimulator/drawTools.build/drawTools-project-headers.hmap -F/Users/masato/app/drawTools/build/Debug-iphonesimulator -I/Users/masato/app/drawTools/build/Debug-iphonesimulator/include -I/Users/masato/app/drawTools/build/drawTools.build/Debug-iphonesimulator/drawTools.build/DerivedSources/i386 -I/Users/masato/app/drawTools/build/drawTools.build/Debug-iphonesimulator/drawTools.build/DerivedSources -c /Users/masato/app/drawTools/drawTools_Prefix.pch -o /var/folders/Z5/Z5pGO7IVHfSN3YL4tp4Fhk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/drawTools_Prefix-dhqbxztenbednsdrnagybmyofytz/drawTools_Prefix.pch.gch0#
 
 CTouch /Users/masato/app/drawTools/build/Debug-iphonesimulator/drawTools.app
-s322404006.771221
-e322404006.854244
+s322417629.615255
+e322417629.638082
 r1
 xTouch
 x/Users/masato/app/drawTools/build/Debug-iphonesimulator/drawTools.app
-lSLF07#2@75"Touch /Users/masato/app/drawTools/build/Debug-iphonesimulator/drawTools.app322404006#322404006#0(0"0(0#0#0"8621035648#258"    cd /Users/masato/app/drawTools    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/masato/app/drawTools/build/Debug-iphonesimulator/drawTools.app0#
+lSLF07#2@75"Touch /Users/masato/app/drawTools/build/Debug-iphonesimulator/drawTools.app322417629#322417629#0(0"0(0#0#0"8618592352#258"    cd /Users/masato/app/drawTools    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/masato/app/drawTools/build/Debug-iphonesimulator/drawTools.app0#
 

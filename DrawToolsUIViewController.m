@@ -37,8 +37,23 @@
 }
 
 - (IBAction) clickButtonColor:(UIButton*)sender {
-	[self.view addSubview:_colorSelecterView];
-
+	// アニメーション処理
+	[UIView beginAnimations:nil context:NULL];
+	// 0.75秒で
+	[UIView setAnimationDuration:0.75];
+	// クルッと回る
+	[UIView setAnimationTransition:UIViewAnimationTransitionFlipFromLeft forView:self.view cache:YES];
+	
+	if(_colorSelecterView.superview) {
+		// newViewが他のViewにAddされてる場合、親Viewから削除
+		[_colorSelecterView removeFromSuperview];
+		
+	} else {
+		// newViewが他のViewにAddされていない場合、self.viewにAdd
+		[self.view addSubview:_colorSelecterView];
+	}
+	
+	[UIView commitAnimations]; 
 }
 
 - (IBAction) clickButtonSave:(UIButton*)sender {

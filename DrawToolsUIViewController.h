@@ -2,11 +2,12 @@
 //  DrawToolsUIViewController.h
 //  drawTools
 //
-//  Created by 塚越 雅斗 on 11/03/21.
+//  Created by masato.t@gmail.com on 11/03/21.
 //  Copyright 2011 __MyCompanyName__. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
+#import "ColorSelecter.h"
 
 
 @interface DrawToolsUIViewController : UIViewController {
@@ -21,7 +22,6 @@
 	
 }
 @property (nonatomic, retain) IBOutlet UIImageView *_imageView;
-@property (nonatomic, retain) IBOutlet UIView *_colorSelecterView;
 @property (nonatomic, retain) IBOutlet UIButton *_colorButton;
 
 //- (void) touchesBegan:(NSSet*) touches withEvent:(UIEvent*) event;

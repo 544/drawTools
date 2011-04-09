@@ -2,16 +2,15 @@
 //  DrawToolsUIViewController.m
 //  drawTools
 //
-//  Created by 塚越 雅斗 on 11/03/21.
+//  Created by  masato.t@gmail.com on 11/03/21.
 //  Copyright 2011 __MyCompanyName__. All rights reserved.
 //
 
 #import "DrawToolsUIViewController.h"
-
+#import "ColorSelecter.h"
 
 @implementation DrawToolsUIViewController
 @synthesize _imageView;
-@synthesize _colorSelecterView;
 @synthesize _colorButton;
 
 // The designated initializer.  Override if you create the controller programmatically and want to perform customization that is not appropriate for viewDidLoad.
@@ -36,7 +35,9 @@
     [super viewDidLoad];
 }
 
+ColorSelecter *colorSelecter;
 - (IBAction) clickButtonColor:(UIButton*)sender {
+    NSLog(@"Color");
 	// アニメーション処理
 	[UIView beginAnimations:nil context:NULL];
 	// 0.75秒で
@@ -44,14 +45,9 @@
 	// クルッと回る
 	[UIView setAnimationTransition:UIViewAnimationTransitionFlipFromLeft forView:self.view cache:YES];
 	
-	if(_colorSelecterView.superview) {
-		// newViewが他のViewにAddされてる場合、親Viewから削除
-		[_colorSelecterView removeFromSuperview];
-		
-	} else {
-		// newViewが他のViewにAddされていない場合、self.viewにAdd
-		[self.view addSubview:_colorSelecterView];
-	}
+    colorSelecter = [[ColorSelecter alloc] initWithNibName:@"ColorSelecter" bundle:nil];
+
+    [self.view addSubview:colorSelecter.view];
 	
 	[UIView commitAnimations]; 
 }
@@ -59,7 +55,7 @@
 - (IBAction) clickButtonSave:(UIButton*)sender {
 		
 	//アラート表示
-	NSLog(@"save",0);
+	NSLog(@"save");
 	saveImage = _imageView.image.copy;
 	
 	if(saveImage==nil) return;
@@ -87,7 +83,7 @@
 
 - (IBAction) clickButtonLoad:(UIButton*)sender {
 	//アラート表示
-	NSLog(@"load",0);
+	NSLog(@"load");
 	
 	NSData *imageData =
 	[NSData dataWithContentsOfFile:[@"~/test.jpg" stringByExpandingTildeInPath]];
